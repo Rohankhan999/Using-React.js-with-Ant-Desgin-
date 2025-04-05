@@ -1,0 +1,21 @@
+h1 {
+  font-family:cursive;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #282c34;
+  color: white;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  cursor: pointer;
+  font-family: cursive;
+}
