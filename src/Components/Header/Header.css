@@ -11,6 +11,7 @@ nav {
   padding: 10px 10px;
   background-color: #282c34;
   color: white;
+  padding:20px;
 }
 ul {
   display: flex;
@@ -18,4 +19,27 @@ ul {
   gap: 30px;
   cursor: pointer;
   font-family: cursive;
+}
+@media screen and (max-width:700px) {
+  ul{
+    gap:10px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+  nav{
+    font-size: 12px;
+  }
+  #icons{
+    /* width:40px; */
+    display: flex;
+    flex-direction: row;
+    
+  }
+  #avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
 }

@@ -12,15 +12,22 @@ function Header() {
           <li>About</li>
           <li>Contact</li>
         </ul>
-        <div>
+        <div id="icons">
           <Badge count={1}>
-            <Avatar size={45} icon={<ShoppingCartOutlined />} style={{ marginLeft: 20 , cursor: "pointer"}} />
+            <Avatar
+              id="avatar"
+              size={40}
+              icon={<ShoppingCartOutlined />}
+              style={{ marginLeft: 0, cursor: "pointer" }}
+            />
           </Badge>
 
           <Avatar
-            size={45}
+            id="avatar"
+            size={40}
             icon={<UserOutlined />}
-            style={{ marginLeft: 20 , cursor: "pointer"}}
+            style={{ marginLeft: 20, cursor: "pointer" }}
+            className="md-0"
           />
         </div>
       </nav>
